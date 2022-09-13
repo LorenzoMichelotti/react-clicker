@@ -1,0 +1,29 @@
+[
+    {
+        "name": "clicker",
+        "clickValue": 1,
+        "cost": 10,
+        "quantity": 1
+    },
+    {
+        "id": 2,
+        "name": "double clicker",
+        "clickValue": 2,
+        "cost": 300,
+        "quantity": 1
+    },
+    {
+        "id": 3,
+        "name": "fast clicker",
+        "clickValue": 3,
+        "cost": 1000,
+        "quantity": 1
+    },
+    {
+        "id": 4,
+        "name": "mega clicker",
+        "clickValue": 10,
+        "cost": 5000,
+        "quantity": 1
+    }
+]

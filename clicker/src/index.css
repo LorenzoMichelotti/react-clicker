@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins'), url(../fonts/Poppins-Regular.ttf) format('woff');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins'), url(../fonts/Poppins-Bold.ttf) format('woff');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins'), url(../fonts/Poppins-SemiBold.ttf) format('woff');
+  font-weight: semi-bold;
+}
+
+:root {
+  font-family: Poppins, Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
